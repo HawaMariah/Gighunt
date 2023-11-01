@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
     "build": "vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "dev": "vite",
+    "lint": "eslint \"src/**/*.{js,vue}\" --fix",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -29,6 +29,6 @@
     "postcss": "^8.4.31",
     "prettier-plugin-tailwindcss": "^0.5.6",
     "tailwindcss": "^3.3.5",
-    "vite": "^4.4.5"
+    "vite": "^4.5.0"
   }
 }
